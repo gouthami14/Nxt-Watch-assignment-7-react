@@ -48,6 +48,7 @@ export const ViewsText = styled.p`
   color: ${props => props.color};
   font-family: 'Roboto';
   margin-left: 10px;
+  color: '#2563eb';
 `
 export const IconContainer = styled.button`
   display: flex;

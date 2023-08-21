@@ -84,11 +84,11 @@ class LoginForm extends Component {
         <ShowHideContainer>
           <CheckboxInput
             type="checkbox"
-            id="showPassword"
+            id="show-password"
             checked={isCheckedPassword}
             onChange={this.onShowHidePassword}
           />
-          <InputLabel htmlFor="showPassword">Show Password</InputLabel>
+          <InputLabel htmlFor="show-password">Show Password</InputLabel>
         </ShowHideContainer>
       </>
     )
@@ -125,7 +125,7 @@ class LoginForm extends Component {
           />
           <InputContainer>{this.renderUsernameField()}</InputContainer>
           <InputContainer>{this.renderPasswordField()}</InputContainer>
-          <LoginButton tpe="button">Login</LoginButton>
+          <LoginButton type="button">Login</LoginButton>
           {showSubmitError && <ErrorMessage>*{errorMsg}</ErrorMessage>}
         </FormContainer>
       </LoginFromContainer>

@@ -43,7 +43,7 @@ export const LoginButton = styled.button`
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 14px;
-  color: #fff;
+  color: #ffffff;
   height: 40px;
   width: 100%;
   margin-top: 20px;

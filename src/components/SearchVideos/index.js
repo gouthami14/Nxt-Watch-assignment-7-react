@@ -96,7 +96,7 @@ class SearchVideos extends Component {
 
   renderLoadingView = () => (
     <ProductsLoaderContainer data-testid="loader">
-      <Loader type="ThreeDots" height={50} width={50} color="" />
+      <Loader type="ThreeDots" height={50} width={50} color="#3b82f6" />
     </ProductsLoaderContainer>
   )
 

@@ -84,7 +84,7 @@ class VideoDetails extends Component {
         title: fetchedData.video_details.title,
         videoUrl: fetchedData.video_details.video_url,
 
-        videoCount: fetchedData.video_details.video_count,
+        viewCount: fetchedData.video_details.view_count,
         thumbnailUrl: fetchedData.video_details.thumbnail_url,
         channel: {
           name: fetchedData.video_details.channel.name,
@@ -113,7 +113,7 @@ class VideoDetails extends Component {
           id,
           channel,
           description,
-          videoCount,
+          viewCount,
           videoUrl,
           title,
           publishedAt,
@@ -173,7 +173,7 @@ class VideoDetails extends Component {
                 <VideoDetailsTextContainer>
                   <VideoDetailsTitle>{title}</VideoDetailsTitle>
                   <ViewsDetailsContainer>
-                    <ViewsText>{videoCount} views</ViewsText>
+                    <ViewsText>{viewCount} views</ViewsText>
                     <ViewsText>{publishedAt}</ViewsText>
                     <LikesContainer>
                       <IconContainer
@@ -227,7 +227,7 @@ class VideoDetails extends Component {
 
   renderLoadingView = () => (
     <ProductsLoaderContainer data-testid="loader">
-      <Loader type="ThreeDots" height={50} width={50} color="" />
+      <Loader type="ThreeDots" height={50} width={50} color="#2563eb" />
     </ProductsLoaderContainer>
   )
 

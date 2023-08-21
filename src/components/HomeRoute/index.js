@@ -36,7 +36,7 @@ class HomeRoute extends Component {
               alt="nxt watch logo"
             />
             <p>Buy Nxt Watch Premium</p>
-            <GetItNowButton>Get It Now</GetItNowButton>
+            <GetItNowButton>GET IT NOW</GetItNowButton>
           </ModalContainer>
           <CloseButton
             type="button"

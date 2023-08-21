@@ -116,7 +116,7 @@ class TrendingRoute extends Component {
 
   renderLoadingView = () => (
     <ProductsLoaderContainer data-testid="loader">
-      <Loader type="ThreeDots" height={50} width={50} color="" />
+      <Loader type="ThreeDots" height={50} width={50} color="#4f46e5" />
     </ProductsLoaderContainer>
   )
 
